@@ -1,0 +1,95 @@
+
+body{
+    margin: 0%;
+    background-color: #211d3b;
+    
+}
+
+.XY{
+    color: aliceblue;
+    background-color: #515053;
+    float: left;
+    margin-top: 80px;
+    font-size: 20px;
+    margin-left: 60px;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    border: 1px solid #515053;
+    border-radius: 15px;
+    padding: 7px 10px 10px 10px;
+}
+
+button:hover{
+    background-color: #2b2938;
+    border: 1px solid #2b2938;
+    transition: 200ms;
+}
+
+#Logo{
+    width: 320px;
+    height: 330px;
+    margin-left: 220px;
+    max-width: 640px;
+    transform: translateY(8px);
+    animation: float 5s ease-in-out infinite;
+}
+@keyframes float {
+    0% {
+        transform: translateY(8px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(8px)
+    }
+}
+#discord{
+    color: aliceblue;
+    background-color: #515053;
+    float: right;
+    margin-top: 80px;
+    font-size: 20px;
+    margin-right: 60px;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    border: 1px solid #515053;
+    border-radius: 15px;
+    padding: 7px 10px 10px 10px;
+}
+
+.loja{
+    margin-left: 20px;
+}
+.text-home{
+    
+}
+.Titulo{
+    color: snow;
+    font-size: 25px;
+    margin-top: 150px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 10px;
+    margin-left: 60px;
+    border: 1px solid black;
+    padding: -1px, -1px, -100px, -100px;
+}
+.text{
+    color: rgba(255, 250, 250, 0.438);
+    font-size: 20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    
+    float: left;
+    
+}
+span{
+    background-color: aquamarine;
+}
+
+#avatar{
+    width: 300px;
+    height: 360px;
+    margin-right: 60px;
+    float: right;
+    
+}
